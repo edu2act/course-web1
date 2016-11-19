@@ -1,2 +1,6 @@
-# course-web1
-课程 Web1 的相关资料。
+# assignment
+课程 Web1 的作业任务。
+
+## 通关任务
+
+- [任务 1](task1.md)
