@@ -6,10 +6,11 @@
 ## 二、github
 
 **教师fork学院课程[course-web1](https://github.com/edu2act/)，并将课程开发结果 pull request 到学院仓库，需提交的内容包括：**
-1. 课程demo
-2. 作业
-3. 参考资料
-4. PPT（可选）
+
+- 课程demo
+- 作业
+- 参考资料
+- PPT（可选）
 
 ## 三、备课形式
 
