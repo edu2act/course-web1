@@ -24,3 +24,12 @@ Web1 课程简介有待补充。
 
 - [CSS 布局](http://zh.learnlayout.com/)  
   学习网页布局的闯关游戏教程。
+
+- [markdown 学习](http://edu.51cto.com/course/course_id-7772.html)
+- [UI设计基础](http://www.edu2act.cn/course/UI-she-ji/1_1/?fromsystem=frontendWeb)
+- [Fireworks视频教程](http://edu.51cto.com/course/course_id-714.html)
+- [UI设计相关内容大纲](http://www.processon.com/view/5837d626e4b0b0c8d7a8d8fb)
+  相关UI设计PPT及课件可从web1备课讨论组下载
+
+
+
