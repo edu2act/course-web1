@@ -3,7 +3,7 @@ Web1 课程简介有待补充。
 
 
 ## 课程大纲
-### [01. 第 01 章节标题](*)
+### [课程大纲](https://github.com/zhangzhiminxinyang/course-web1/blob/master/teachingProgram.md)
 
 【简单介绍，有待补充】
 
