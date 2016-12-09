@@ -1,7 +1,6 @@
 # course-web1
 > 本课程是计算机软件及相关专业在Web开发技术方面的基础课，它是为培养应用型人才掌握使用计算机的技能而开设的。本课程是一门有关网页设计以及网页制作的基础课程。本课程的任务是使学生具有使用HTML、CSS语言，主流开发工具（编辑器：Hbuilder、调试工具：Chrome Developer Toolbar）制作静态网页的能力，并为之后深入学习Web开发打下基础。通过本课程的学习，要求学生熟练掌握HTML语言的的基本语法，掌握CSS层叠样式表的使用方法；培养学生UI常识、网页设计规范、网页视觉方面的基本素养；要求具备利用HTML、CSS、及相关工具开发静态网页的技能。同时，兼顾实用软件的使用和计算机应用领域前沿知识的介绍，为学生进一步学习计算机有关知识打下坚实基础。
 
-
 ## 课程安排
 
 | 周次  | 教学内容 | 课程资料 |  教学形式（讲授+实践）|
@@ -23,7 +22,9 @@
 | **15** | [第十六章  网页视觉设计](teachingProgram.md#第十六章--网页视觉设计) | [<img src="https://raw.githubusercontent.com/edu2act/course-web1/master/images/presentation.png" height="15" />Slides](*) / [<img src="https://raw.githubusercontent.com/edu2act/course-web1/master/images/code.png" height="15"> Demos](/Topics/04. Stylus/demos) / [<img src="https://raw.githubusercontent.com/edu2act/course-web1/master/images/homework.png" height="15">Tasks](/Topics/04. Stylus/homework) / [<img src="https://raw.githubusercontent.com/edu2act/course-web1/master/images/video.png" height="13"> Videos](/Topics/04. Stylus/VIDEOS.md) | **3+0**|
 | **16** | [第十七章 网页元素设计](teachingProgram.md#第十七章-网页元素设计)  | [<img src="https://raw.githubusercontent.com/edu2act/course-web1/master/images/presentation.png" height="15" />Slides](*) / [<img src="https://raw.githubusercontent.com/edu2act/course-web1/master/images/code.png" height="15"> Demos](/Topics/04. Stylus/demos) / [<img src="https://raw.githubusercontent.com/edu2act/course-web1/master/images/homework.png" height="15">Tasks](/Topics/04. Stylus/homework) / [<img src="https://raw.githubusercontent.com/edu2act/course-web1/master/images/video.png" height="13"> Videos](/Topics/04. Stylus/VIDEOS.md) | **3+0**|
 | **17** | [第十八章 网页设计规范](teachingProgram.md#第十八章-网页设计规范) | [<img src="https://raw.githubusercontent.com/edu2act/course-web1/master/images/presentation.png" height="15" />Slides](*) / [<img src="https://raw.githubusercontent.com/edu2act/course-web1/master/images/code.png" height="15"> Demos](/Topics/04. Stylus/demos) / [<img src="https://raw.githubusercontent.com/edu2act/course-web1/master/images/homework.png" height="15">Tasks](/Topics/04. Stylus/homework) / [<img src="https://raw.githubusercontent.com/edu2act/course-web1/master/images/video.png" height="13"> Videos](/Topics/04. Stylus/VIDEOS.md) | **3+0**|
-| **18** | 实战：搭建完整网站 |**1+2**  | [<img src="https://raw.githubusercontent.com/edu2act/course-web1/master/images/presentation.png" height="15" />Slides](*) / [<img src="https://raw.githubusercontent.com/edu2act/course-web1/master/images/code.png" height="15"> Demos](/Topics/04. Stylus/demos) / [<img src="https://raw.githubusercontent.com/edu2act/course-web1/master/images/homework.png" height="15">Tasks](/Topics/04. Stylus/homework) / [<img src="https://raw.githubusercontent.com/edu2act/course-web1/master/images/video.png" height="13"> Videos](/Topics/04. Stylus/VIDEOS.md) | **3+0**|
+| **18** | 实战：搭建完整网站  | [<img src="https://raw.githubusercontent.com/edu2act/course-web1/master/images/presentation.png" height="15" />Slides](*) / [<img src="https://raw.githubusercontent.com/edu2act/course-web1/master/images/code.png" height="15"> Demos](/Topics/04. Stylus/demos) / [<img src="https://raw.githubusercontent.com/edu2act/course-web1/master/images/homework.png" height="15">Tasks](/Topics/04. Stylus/homework) / [<img src="https://raw.githubusercontent.com/edu2act/course-web1/master/images/video.png" height="13"> Videos](/Topics/04. Stylus/VIDEOS.md) | **3+0**|
+
+
 
 
 
