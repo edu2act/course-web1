@@ -36,7 +36,7 @@
 [第十八章 网页设计规范](#eighteenth)
 
 
-# <span id="first">第一章 Web基础知识</span>
+# <h1 id="first">第一章 Web基础知识</h1>
 
 1. Web开发基本概念
 	- 万维网
@@ -59,7 +59,7 @@
 	- 页面元素（文字、图片、表单、视频、 音频、动画）
 8. 学习Web开发的意义。
 
-# <span id="second">第二章 HTML语言基础</span>
+# <h1 id="second">第二章 HTML语言基础</h1>
 
 1. 网页与网页文件。
 	- 网页
