@@ -8,33 +8,33 @@ Web1 课程简介有待补充。
 
 [第二章 HTML语言基础](teachingProgram.md#第二章-html语言基础)
 
-[第三章 构建页面（一）](teachingProgram.md#第三章-构建页面（一）)
+[第三章 构建页面（一）](teachingProgram.md#第三章-构建页面一)
 
-[第四章 构建页面（二）](teachingProgram.md#第四章-构建页面（二）)
+[第四章 构建页面（二）](teachingProgram.md#第四章-构建页面二)
 
-[第五章 构建页面（三）](teachingProgram.md#第五章-构建页面（三）)
+[第五章 构建页面（三）](teachingProgram.md#第五章-构建页面三)
 
-[第六章 HTML4.01与HTML5](teachingProgram.md#第六章-第六章-html401与html5)
+[第六章 HTML4.01与HTML5](teachingProgram.md#第六章-html401与html5)
 
 [第七章 CSS语言基础](teachingProgram.md#第七章-css语言基础)
 
-[第八章  文本样式和字体样式](teachingProgram.md#第八章-文本样式和字体样式)
+[第八章  文本样式和字体样式](teachingProgram.md#第八章--文本样式和字体样式)
 
 [第九章 超链接和伪类](teachingProgram.md#第九章-超链接和伪类)
 
 [第十章 背景样式和列表样式](teachingProgram.md#第十章-背景样式和列表样式)
 
-[第十一章  网页布局](teachingProgram.md#第十一章-网页布局)
+[第十一章  网页布局](teachingProgram.md#第十一章--网页布局)
 
-[第十二章  CSS盒子模型](teachingProgram.md#第十二章-css盒子模型)
+[第十二章  CSS盒子模型](teachingProgram.md#第十二章--css盒子模型)
 
-[第十三章 CSS高级内容](teachingProgram.md#第十三章 css高级内容)
+[第十三章 CSS高级内容](teachingProgram.md#第十三章-css高级内容)
 
-[第十四章  div+CSS布局实战](teachingProgram.md#第十四章-div+css布局实战) 
+[第十四章  div+CSS布局实战](teachingProgram.md#第十四章--divcss布局实战) 
 
 [第十五章 浏览器兼容性调整](teachingProgram.md#第十五章-浏览器兼容性调整)
 
-[第十六章  网页视觉设计](teachingProgram.md#第十六章-网页视觉设计)
+[第十六章  网页视觉设计](teachingProgram.md#第十六章--网页视觉设计)
 
 [第十七章 网页元素设计](teachingProgram.md#第十七章-网页元素设计)
 
