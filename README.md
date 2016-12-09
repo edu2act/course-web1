@@ -4,9 +4,13 @@
 
 ## 课程安排
 
-| 周次  | 教学内容 |  教学形式（讲授+实践）|
-| :--: | ------ | :----------------:  |
-| **1** | [第一章 Web基础知识](teachingProgram.md#第一章-web基础知识)<br/>实验一：了解Web领域 | **3+0**|
+| 周次  | 教学内容 | 课程资料 |  教学形式（讲授+实践）|
+| :--: | ------ | :----------------:  | :--: |
+| **1** | [第一章 Web基础知识](teachingProgram.md#第一章-web基础知识) | [<img src="https://raw.githubusercontent.com/edu2act/course-web1/master/images/presentation.png" height="15" />Slides](*) / [<img src="https://raw.githubusercontent.com/edu2act/course-web1/master/images/code.png" height="15"> Demos](/Topics/04. Stylus/demos) / [<img src="https://raw.githubusercontent.com/edu2act/course-web1/master/images/homework.png" height="15">Tasks](/Topics/04. Stylus/homework) / [<img src="https://raw.githubusercontent.com/edu2act/course-web1/master/images/video.png" height="13"> Videos](/Topics/04. Stylus/VIDEOS.md) | **3+0**|
+
+
+| 周次  | 教学内容 |   教学形式（讲授+实践）|  
+| :--: | ------ | :----------------:  |  
 | **2** | [第二章 HTML语言基础](teachingProgram.md#第二章-html语言基础)<br/>实验二：开发工具及学习工具使用方法 |**2+1** |
 | **3** | [第三章 构建页面（一）](teachingProgram.md#第三章-构建页面一)<br/>实验三：网站列表页制作| **3+0**|
 | **4** | [第四章 构建页面（二）](teachingProgram.md#第四章-构建页面二)<br/>实验四：网站首页制作（二） |**2+1** |
@@ -26,7 +30,6 @@
 | **18** | 实战：搭建完整网站 |**1+2** |
 
 
-##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="15" />Slides](*) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15"> Demos](/Topics/04. Stylus/demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](/Topics/04. Stylus/homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="13"> Videos](/Topics/04. Stylus/VIDEOS.md)
 
 
 ## 学习资料
