@@ -14,7 +14,7 @@ Web1 课程简介有待补充。
 
 [第五章 构建页面（三）](teachingProgram.md#第五章-构建页面（三）)
 
-[第六章 HTML4.01与HTML5](teachingProgram.md#第六章-htmlL4.01与html5)
+[第六章 HTML4.01与HTML5](teachingProgram.md#第六章-第六章-html401与html5)
 
 [第七章 CSS语言基础](teachingProgram.md#第七章-css语言基础)
 
