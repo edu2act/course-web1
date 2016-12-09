@@ -4,7 +4,7 @@ Web1 课程简介有待补充。
 
 ## 课程大纲
 
-[第一章-Web基础知识](teachingProgram.md#第一章-web基础知识)
+[第一章 Web基础知识](teachingProgram.md#第一章-web基础知识)
 
 [第二章 HTML语言基础](teachingProgram.md#第二章-html语言基础)
 
