@@ -79,7 +79,7 @@
 	- 浏览器开发工具
 	- 帮助手册
 
-#<span id="third">第三章 构建页面（一）</span>
+#<h1 id="third">第三章 构建页面（一）</h1>
 
 1. 网页元素包含内容
 2. 在网页中插入文字（文字、实体、注释）
@@ -93,7 +93,7 @@
 	- 有序列表
 	- 无序列表
 
-#<span id="forth">第四章 构建页面（二）</span>
+#<h1 id="forth">第四章 构建页面（二）</h1>
 
 1. 在网页中插入图片及常用相关属性（src、alt）。
 2. 在网页中设置热区。
@@ -102,12 +102,12 @@
 5. 相对路径、绝对路径的概念。
 6. 在网页中使用内联框架（iframe）。
 
-#<span id="fifth">第五章 构建页面（三）</span>
+#<h1 id="fifth">第五章 构建页面（三）</h1>
 
 1. 在网页中插入表格及简单样式修饰。
 2. 在网页中插入表单及简单样式修饰。
 
-#<span id="sixth">第六章 HTML4.01与HTML5</span>
+#<h1 id="sixth">第六章 HTML4.01与HTML5</h1>
 
 1. HTML5与HTML4.01。
 2. HTML多媒体概述。
@@ -121,7 +121,7 @@
 	- strong
 	- b
 
-#<span id="seventh">第七章 CSS语言基础</span>
+#<h1 id="seventh">第七章 CSS语言基础</h1>
 
 1. 为什么使用CSS。
 2. CSS简介。
@@ -132,7 +132,7 @@
 4. 结构和样式分离思想。
 5. CSS基本应用示例。
 
-#<span id="eighth">第八章  文本样式和字体样式</span>
+#<h1 id="eighth">第八章  文本样式和字体样式</h1>
 
 1. CSS字体相关类样式修饰。
 	- 字体系列：font-family
@@ -147,7 +147,7 @@
 	- 文本颜色：color
 	- 行高：line-height
 
-#<span id="ninth">第九章 超链接和伪类</span>
+#<h1 id="ninth">第九章 超链接和伪类</h1>
 
 1. CSS超链接的修饰。
 	- 未被访问的超链接a:link
@@ -158,7 +158,7 @@
 3. CSS伪类的使用方法。
 3. CSS伪元素的使用方法。
 
-#<span id="tenth">第十章 背景样式和列表样式</span>
+#<h1 id="tenth">第十章 背景样式和列表样式</h1>
 
 1. CSS背景类样式修饰
 	- 背景色：background-color
@@ -171,7 +171,7 @@
 	- 列表项图像：list-style-image
 	- 列表标志位置：list-style-position
 
-#<span id="eleventh">第十一章  网页布局</span>
+#<h1 id="eleventh">第十一章  网页布局</h1>
 
 1. 布局简介
 	- 布局概念
@@ -184,7 +184,7 @@
 6. 相对定位、绝对定位。
 7. 布局示例。
 
-#<span id="twelfth">第十二章  CSS盒子模型</span>
+#<h1 id="twelfth">第十二章  CSS盒子模型</h1>
 
 1. 行内元素、块级元素的概念及display属性的用法。
 2. CSS盒子模型简介。
@@ -195,7 +195,7 @@
 	- 内边距
 	- 外边距
 
-#<span id="thirteenth">第十三章 CSS高级内容</span>
+#<h1 id="thirteenth">第十三章 CSS高级内容</h1>
 
 1. CSS高级选择器
 	- 分组选择器
@@ -212,13 +212,13 @@
 7. 网络安全字体
 8. CSS听觉参考手册
 
-#<span id="fourteenth">第十四章  div+CSS布局实战</span>
+#<h1 id="fourteenth">第十四章  div+CSS布局实战</h1>
 
 1. 浏览器调试工具的使用方法。
 2. 根据实例资料，完成页面搭建。
 3. 布局技巧总结。
 
-#<span id="fifteenth">第十五章 浏览器兼容性调整</span>
+#<h1 id="fifteenth">第十五章 浏览器兼容性调整</h1>
  
 1. 浏览器兼容性问题简介。
 2. 常见的浏览器兼容性问题。
@@ -226,7 +226,7 @@
 4. IE条件注释。
 5. W3C验证。
 
-#<span id="sixteenth">第十六章  网页视觉设计</span>
+#<h1 id="sixteenth">第十六章  网页视觉设计</h1>
 
 1. 网页布局
 
@@ -239,7 +239,7 @@
 	- 网页用色（色彩原理、色彩的心理感受、网页色彩运用）
 3. 网页设计趋势
 
-#<span id="seventeenth">第十七章 网页元素设计</span>
+#<h1 id="seventeenth">第十七章 网页元素设计</h1>
 
 1. 文字设计
  	- 字体、字体
@@ -257,7 +257,7 @@
 6. 按钮设计
 7. 图标设计
 
-#<span id="eighteenth">第十八章 网页设计规范</span>
+#<h1 id="eighteenth">第十八章 网页设计规范</h1>
 
 1. 页面规划
 	- 尺寸兼容
