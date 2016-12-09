@@ -4,9 +4,9 @@ Web1 课程简介有待补充。
 
 ## 课程大纲
 
-[第一章-Web基础知识](teachingProgram.md#第一章-Web基础知识)
+[第一章-Web基础知识](teachingProgram.md#第一章-web基础知识)
 
-[第二章 HTML语言基础](teachingProgram.md#第二章-HTML语言基础)
+[第二章 HTML语言基础](teachingProgram.md#第二章-html语言基础)
 
 [第三章 构建页面（一）](teachingProgram.md#第三章-构建页面（一）)
 
@@ -14,9 +14,9 @@ Web1 课程简介有待补充。
 
 [第五章 构建页面（三）](teachingProgram.md#第五章-构建页面（三）)
 
-[第六章 HTML4.01与HTML5](teachingProgram.md#第六章-HTML4.01与HTML5)
+[第六章 HTML4.01与HTML5](teachingProgram.md#第六章-htmlL4.01与html5)
 
-[第七章 CSS语言基础](teachingProgram.md#第七章-CSS语言基础)
+[第七章 CSS语言基础](teachingProgram.md#第七章-css语言基础)
 
 [第八章  文本样式和字体样式](teachingProgram.md#第八章-文本样式和字体样式)
 
@@ -26,11 +26,11 @@ Web1 课程简介有待补充。
 
 [第十一章  网页布局](teachingProgram.md#第十一章-网页布局)
 
-[第十二章  CSS盒子模型](teachingProgram.md#第十二章-CSS盒子模型)
+[第十二章  CSS盒子模型](teachingProgram.md#第十二章-css盒子模型)
 
-[第十三章 CSS高级内容](teachingProgram.md#第十三章 CSS高级内容)
+[第十三章 CSS高级内容](teachingProgram.md#第十三章 css高级内容)
 
-[第十四章  div+CSS布局实战](teachingProgram.md#第十四章-div+CSS布局实战) 
+[第十四章  div+CSS布局实战](teachingProgram.md#第十四章-div+css布局实战) 
 
 [第十五章 浏览器兼容性调整](teachingProgram.md#第十五章-浏览器兼容性调整)
 
