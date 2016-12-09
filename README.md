@@ -2,8 +2,11 @@
 Web1 课程简介有待补充。
 
 
-## 课程大纲
-### [课程大纲](https://github.com/zhangzhiminxinyang/course-web1/blob/master/teachingProgram.md)
+## 课程大纲和教学进度表
+
+#### [课程大纲](https://github.com/zhangzhiminxinyang/course-web1/blob/master/teachingProgram.md)
+
+#### [教学进度表](https://github.com/zhangzhiminxinyang/course-web1/blob/master/teachingSchedule.md)
 
 ##### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/presentation.png" height="15" />Slides](*) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/code.png" height="15"> Demos](/Topics/04. Stylus/demos) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/homework.png" height="15">Tasks](/Topics/04. Stylus/homework) / [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="13"> Videos](/Topics/04. Stylus/VIDEOS.md)
 
