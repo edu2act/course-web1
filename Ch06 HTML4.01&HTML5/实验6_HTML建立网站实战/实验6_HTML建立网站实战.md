@@ -20,8 +20,8 @@
 ##三、	实验目的 
 + 熟练掌握使用HTML建立静态网站的基本方法。
 + 熟练掌握常用HTML结构性标签及其属性的使用方法。
-+ 理解网页布局的基本思想，理解结合<table>标签实现网页布局的设计思想。
- 
++ 理解网页布局的基本思想，理解结合<table>标签实现网页布局的设计思想。  
+
 ##四、	理论基础 
 ###1	网页结构  
 任何一个网页，从整体上一般可以分为顶部、中部和底部三部分，如下图6-4所示。而对于同一网站而言，不同页面的网页顶部和网页底部内容一般是相同的，这样我们就可以重复使用这些相同部分。  
@@ -85,7 +85,7 @@ HTML（Hyper Text Markup Language）：超文本标记语言，仅是用于描�
 3)	接下来分析中部分代码结构。该部分代码比较复杂，首先通过效果图对该部分进行划分，如下图6-7所示。  
 
   <center>![](resource/images/6_7.png)</center>  
-  <center>图6-7 index.html中部之中部结构</center>
+  <center>图6-7 index.html中部之中部结构</center>  
 通过图6-7可以发现该部分网页整体是由一个2行4列的表格组成的，其中第一行的两个单元格要分别跨列显示（colspan）；另外，“河中教研网”和“河中德育网”分别使用了图像热区，其热区坐标如下所示。  
   
   <center>![](resource/images/6_0000.png)</center>  
@@ -96,12 +96,12 @@ HTML（Hyper Text Markup Language）：超文本标记语言，仅是用于描�
 ###步骤六：设置list.html网页中部内容
 list.html页面整体结构由1行2列的表格组成，其中左侧占据25%宽度，右侧占据75%宽度。
 此页面内容比较简单，强调两个注意问题，其它问题不再赘述。第一，“学校概况”和“所获荣誉”下方通过水平分割线与其它元素分割；第二，分页码部分由1行8列的表格组成。
-###步骤六：设置content.html网页中部内容
+###步骤七：设置content.html网页中部内容
 content.html页面结构基本和list.html页面结构相似，不再详细展开讨论。注意：左侧内容区域占据70%宽度，右侧列表区域占据30%宽度；另外，“上一篇”和“下一篇”新闻部分可以直接使用空格（&nbsp;）分开，不需要再划分表格结构。
 
 ##六、	实验作业（完成并提交）
 使用Sublime Text 3完成本实验的网页文件，把作业上传到ftp服务器，并把ftp地址提交到雪梨教育同步课程相应任务下。
 ##七、	推荐阅读
-http://www.111cn.net/cssdiv/css/57963.htm  
-http://wenku.baidu.com/link?url=UL-hi2_mGChJa1-C_afK02MXY0plHySYtbDKx29CkgjMuseX0CRavmMAkJ0YspuCuS__SlWynW8PeY2O2Gu-Znf1FUEFhQE91Rjyqlfz5sy
+###网站前端开发规范文档  http://www.111cn.net/cssdiv/css/57963.htm  
+###Table与div布局        http://wenku.baidu.com/link?url=UL-hi2_mGChJa1-C_afK02MXY0plHySYtbDKx29CkgjMuseX0CRavmMAkJ0YspuCuS__SlWynW8PeY2O2Gu-Znf1FUEFhQE91Rjyqlfz5sy
 
