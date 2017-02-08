@@ -91,7 +91,8 @@ HTML标签在CSS中具有一些默认的显示外观，例如<div>标签默认�
   ![alt text](resource/images/007.png "Title")
   
 图8-4 页面主体区域
-  ![alt text](resource/images/008.png "Title")
+
+  ![alt text](resource/images/019.png "Title")
   
 图8-5 页面底部区域
 
