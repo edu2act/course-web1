@@ -7,7 +7,7 @@
 ## 二 实验目标
 本次实验实现如下效果的页面：
 
- ![alt text](https://github.com/suoweiyiren/course-web1/blob/master/%E5%AE%9E%E9%AA%8C%E6%89%8B%E5%86%8C%E7%9B%AE%E5%BD%95/%E5%AE%9E%E9%AA%8C4%20%E7%BD%91%E7%AB%99%E9%A6%96%E9%A1%B5%E5%88%B6%E4%BD%9C/resource/images/001.png "Title")
+ ![alt text](Ch04%20Build%20a%20page-2/lab4/resource/images/001.png "Title")
  
 ## 	三 实验目的
 + 理解文字以及文字样式的设置，并可以完成网页中文字样式设定。
