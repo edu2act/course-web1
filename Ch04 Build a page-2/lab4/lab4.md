@@ -7,7 +7,7 @@
 ## 二 实验目标
 本次实验实现如下效果的页面：
 
- ![alt text](Ch04%20Build%20a%20page-2/lab4/resource/images/001.png "Title")
+ ![alt text](resource/images/001.png "Title")
  
 ## 	三 实验目的
 + 理解文字以及文字样式的设置，并可以完成网页中文字样式设定。
