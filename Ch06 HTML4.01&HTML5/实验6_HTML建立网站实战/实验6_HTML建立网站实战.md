@@ -60,25 +60,26 @@ HTML（Hyper Text Markup Language）：超文本标记语言，仅是用于描�
 9)	HTML样式相关标签：`<strong>`、`<em>`、`<big>`、`<small>`、`<sup>`、`<sub>`、`<font>`  
  
 ##五、	实验步骤   
-###步骤一： 建立网站目录结构
+###步骤一  建立网站目录结构
 在lab5目录下，建立images文件夹（包含网站中所使用的图片）,同时建立3个html文件（index.html、list.html、content.html），如下图6-5所示。  
 
   <center>![](resource/images/6_5.png)</center>  
   <center>图6-5 网站目录结构</center>  
-###步骤二： 首页添加网页布局结构
+###步骤二  首页添加网页布局结构
 由于“河北中学”网站中这三类页面具有相同的网页顶部、网页中部和网页底部结构，首先从整体上把网页划分成上、中、下三部分。在index.html文件中，建立该三部分的结构性代码（借助表格标签的三行来实现），示例代码如下所示。  
   
   <center>![](resource/images/6_00.png)</center>  
-###步骤三：设置网页顶部代码 
+###步骤三  设置网页顶部代码 
 页头部分主要有背景图片和导航栏组成，这些网页元素应该位于表格中进行布局排列。导航栏的构成比较简单，直接使用`<a>`标签即可（注意：超链接的地址统一设置为content.html）；背景图片的设置比较复杂，因为该背景图效果是由images文件夹中的bg.gif和banner.jpg两个图片文件组成的。  
 补充网页顶部需要注意的一些样式信息：超链接的字体颜色是white，可以借助`<font>`标签实现；bg.gif图片铺满整个屏幕（100%），banner.jpg图片占据整个屏幕的60%且居中显示；导航栏部分高度大概是75px。  
-###步骤四：设置网页底部代码
+###步骤四  设置网页底部代码
 网页底部代码比较简单，只需要注意两点样式信息：文字颜色为white；网页底部使用背景图片foot_bg.gif填充。  
-###步骤五：设置index.html网页中部内容
+###步骤五  设置index.html网页中部内容
 1)	首先index.html页面网页中部从上到下又可以划分为3部分，所以可以再次借助表格的3行来实现结构，如下图6-6所示。  
 
   <center>![](resource/images/6_6.png)</center>  
   <center>图6-6 index.html页面中部结构</center>  
+  
 2)	现在开始分析上部代码结构。按照布局的基本思想，又可以把其分为左、中、右三部分组成，而这三部分可以由1行3列的表格支撑。该部分网页元素主要有超链接、图片、列表等组成，需要注意的问题主要有以下几个：第一，左、中、右三部分的宽度比较分别是25%、55%和20%；新闻列表中所有超链接的链接地址均指向content.html页面；“河中新闻”图片右上角的“more”使用图像热区实现，其中热区核心代码如下所示。   
 
   <center>![](resource/images/6_000.png)</center>
@@ -93,15 +94,15 @@ HTML（Hyper Text Markup Language）：超文本标记语言，仅是用于描�
 4)	最后处理最下方部分，该部分结构比较简单，直接由1行4列的表格组成，其中注意最左侧大图片是由4个热区组成，其坐标示例代码如下所示。  
 
   <center>![](resource/images/6_00000.png)</center>
-###步骤六：设置list.html网页中部内容
+###步骤六  设置list.html网页中部内容
 list.html页面整体结构由1行2列的表格组成，其中左侧占据25%宽度，右侧占据75%宽度。
 此页面内容比较简单，强调两个注意问题，其它问题不再赘述。第一，“学校概况”和“所获荣誉”下方通过水平分割线与其它元素分割；第二，分页码部分由1行8列的表格组成。
-###步骤七：设置content.html网页中部内容
+###步骤七  设置content.html网页中部内容
 content.html页面结构基本和list.html页面结构相似，不再详细展开讨论。注意：左侧内容区域占据70%宽度，右侧列表区域占据30%宽度；另外，“上一篇”和“下一篇”新闻部分可以直接使用空格（&nbsp;）分开，不需要再划分表格结构。
 
 ##六、	实验作业（完成并提交）
-使用Sublime Text 3完成本实验的网页文件，把作业上传到ftp服务器，并把ftp地址提交到雪梨教育同步课程相应任务下。
+
 ##七、	推荐阅读
-###网站前端开发规范文档  http://www.111cn.net/cssdiv/css/57963.htm  
-###Table与div布局        http://wenku.baidu.com/link?url=UL-hi2_mGChJa1-C_afK02MXY0plHySYtbDKx29CkgjMuseX0CRavmMAkJ0YspuCuS__SlWynW8PeY2O2Gu-Znf1FUEFhQE91Rjyqlfz5sy
+网站前端开发规范          http://www.111cn.net/cssdiv/css/57963.htm  
+Table与div布局        http://wenku.baidu.com/link?url=UL-hi2_mGChJa1-C_afK02MXY0plHySYtbDKx29CkgjMuseX0CRavmMAkJ0YspuCuS__SlWynW8PeY2O2Gu-Znf1FUEFhQE91Rjyqlfz5sy
 
