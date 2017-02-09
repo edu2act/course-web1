@@ -26,7 +26,7 @@ web服务器有两层含义：
 2. web服务器是一个提供网页的服务器程序。
 常用web服务器软件： Apache、IIS、Tomcat等。
 ### 8. URL
-&emsp;&emsp;URL是对可以从互联网上得到的资源的位置和访问方法的一种简洁的表示，是互联网上标准资源的地址。互联网上的每个文件都有一个唯一的URL，它包含的信息指出文件的位置以及浏览器应该怎么处理它。如：百度首页的URL是http://www.baidu.com/，百度百科的URL是http://baike.baidu.com/，百度百科里面某一个页面的URL是http://baike.baidu.com/view/210921.htm，每一个页面所对应的URL都是唯一的。 
+&emsp;&emsp;URL是对可以从互联网上得到的资源的位置和访问方法的一种简洁的表示，是互联网上标准资源的地址。互联网上的每个文件都有一个唯一的URL，它包含的信息指出文件的位置以及浏览器应该怎么处理它。如：百度首页的URL是[http://www.baidu.com/](http://www.baidu.com/)，百度百科的URL是[http://baike.baidu.com/](http://baike.baidu.com/)，百度百科里面某一个页面的URL是[http://baike.baidu.com/view/210921.htm](http://baike.baidu.com/view/210921.htm)，每一个页面所对应的URL都是唯一的。 
 ## 四	用浏览器访问新浪网
 ### 1.	 实验目的
 &emsp;&emsp;了解用浏览器浏览网页的基本操作过程，掌握URL与网页的对应关系，掌握网页与网站之间的关系。
