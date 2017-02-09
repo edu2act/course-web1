@@ -100,11 +100,14 @@ Checkbox对象代表一个HTML表单中的一个选择框，当设置属性为Ch
 &emsp;&emsp;重复上一步操作，在各行的单元格中插入相应表单元素，注意表单元素类型选择，如何得到要插入的的表单元素，最终效果图如图5-4所示。   
 <center>![](resource/images/img19.png)</center>   
 <center>图5-4 注册界面</center>  
+
 ## 六  思考并实现
 - 到这里，我们已经用表格实现出一个表单。但是，如何实现将表单里面获取到的用户注册信息，提交到某一个地址上去？需要我们做什么操作，又需要我们注意哪些问题？请同学们自行思考，并实现将注册信息提交到地址为[http://10.7.1.98/taozhuo/form_data.php](http://10.7.1.98/taozhuo/form_data.php)的文件中去的功能（获取方式为：get）。  
 - 模仿注册页面的实现方式，使用表格和表单完成注册页面的实现，效果图如下：  
 <center>![](resource/images/img20.png)</center>  
-## 七  实验总结（由学生完成并提交）
+
+## 七  实验总结（由学生完成并提交） 
+
 ## 八  推荐阅读
 - [http://www.cnblogs.com/sammy1983/archive/2006/06/20/431007.html](http://www.cnblogs.com/sammy1983/archive/2006/06/20/431007.html)
 - [http://zc.qq.com/chs/index.html?from=client&pt_clientver=5455&pt_src=1&ptlang=2052&regkey=4AED2736EE8AC2951FCBD7664E5CC4205267385C147B124D30CC567DE61F41C7&ADUIN=0&ADSESSION=0&ADTAG=CLIENT.QQ.5455_NewAccount_Btn.0&ADPUBNO=26550](http://zc.qq.com/chs/index.html?from=client&pt_clientver=5455&pt_src=1&ptlang=2052&regkey=4AED2736EE8AC2951FCBD7664E5CC4205267385C147B124D30CC567DE61F41C7&ADUIN=0&ADSESSION=0&ADTAG=CLIENT.QQ.5455_NewAccount_Btn.0&ADPUBNO=26550)
