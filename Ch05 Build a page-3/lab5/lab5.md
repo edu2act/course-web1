@@ -42,8 +42,9 @@
 - select  
      创建下拉列表框。与option元素同时使用。
 - textarea  
-     创建多行文本输入区域。可通过cols和rows属性规定textarea的尺寸。
-#### 文本框
+     创建多行文本输入区域。可通过cols和rows属性规定textarea的尺寸。  
+     
+#### 4. 文本框
 &emsp;&emsp;文本框主要用于输入文本，包含单行文本与多行文本，且可以设置文本类型，实现单行与多行文本，如图4-4所示。  
  <center>![](resource/images/img5-1.jpg)</center>   
  <center>![](resource/images/img5-2.jpg)</center>  
@@ -52,16 +53,17 @@
  <center>![](resource/images/img6-1.jpg)</center>    
  <center>![](resource/images/img6-2.jpg)</center>  
  <center>图4-5（上单行，下多行）</center>  
-#### 下拉列表
+ 
+#### 5. 下拉列表
 &emsp;&emsp;在页面中用于选择信息，所占空间较小，但不如复选框或单选框直观。如图4-6所示。
  <center>![](resource/images/img7.jpg)</center>  
  <center>![](resource/images/img8.jpg)</center>  
 <center>图4-6 下拉列表</center>  
-#### 按钮
+#### 6. 按钮
 &emsp;&emsp;表单中数据提交过程触发一般会使用按钮，按钮根据使用场景的不同可以分为许多类型，比如button、reset、submit，标签为<button></button>可以通过按钮的type属性来进行设置。有关按钮常用属性如图4-7所示。  
 <center>![](resource/images/img9.jpg)</center>    
 <center>图4-7 按钮属性</center>  
-#### 单选按钮与复选框
+#### 7. 单选按钮与复选框
 &emsp;&emsp;单选按钮是指在表单对象中在同一状态下只可选择一个选项，当选择其他项时，该项取消选中。单选按钮一般同复选框一样都是成组使用，不同的是在一个组内只可有一个单选按钮被选中。
 <center>![](resource/images/img10.jpg)</center>  
 <center>![](resource/images/img11.jpg)</center>  
