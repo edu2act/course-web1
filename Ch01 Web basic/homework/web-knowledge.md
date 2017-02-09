@@ -26,7 +26,7 @@ web服务器有两层含义：
 2. web服务器是一个提供网页的服务器程序。
 常用web服务器软件： Apache、IIS、Tomcat等。
 ### 8. URL
-&emsp;&emsp;URL是对可以从互联网上得到的资源的位置和访问方法的一种简洁的表示，是互联网上标准资源的地址。互联网上的每个文件都有一个唯一的URL，它包含的信息指出文件的位置以及浏览器应该怎么处理它。如：百度首页的URL是[http://www.baidu.com/](http://www.baidu.com/)，百度百科的URL是[http://baike.baidu.com/](http://baike.baidu.com/)，百度百科里面某一个页面的URL是[http://baike.baidu.com/view/210921.htm](http://baike.baidu.com/view/210921.htm)，每一个页面所对应的URL都是唯一的。 
+&emsp;&emsp;URL是对可以从互联网上得到的资源的位置和访问方法的一种简洁的表示，是互联网上标准资源的地址。互联网上的每个文件都有一个唯一的URL，它包含的信息指出文件的位置以及浏览器应该怎么处理它。如：百度首页的URL是 [http://www.baidu.com/](http://www.baidu.com/)，百度百科的URL是 [http://baike.baidu.com/](http://baike.baidu.com/)，百度百科里面某一个页面的URL是 [http://baike.baidu.com/view/210921.htm](http://baike.baidu.com/view/210921.htm)，每一个页面所对应的URL都是唯一的。 
 ## 四	用浏览器访问新浪网
 ### 1.	 实验目的
 &emsp;&emsp;了解用浏览器浏览网页的基本操作过程，掌握URL与网页的对应关系，掌握网页与网站之间的关系。
@@ -38,20 +38,20 @@ web服务器有两层含义：
 #### 步骤二 输入新浪网首页网址
 &emsp;&emsp;在地址栏输入网址，由于我们要访问的是新浪网首页，所以在地址栏输入以下网址：[http://www.sina.com.cn/index.html](http://www.sina.com.cn/index.html)  如图1.1
 <center>![](resource/images/img1.png) </center>
-<center>图1.1 浏览器地址栏中输入网址</center>
+<center>图1.1 浏览器地址栏中输入网址</center>  
 点击回车键之后，浏览器中将显示出URL为[http://www.sina.com.cn/index.html](http://www.sina.com.cn/index.html)的页面，也就是新浪网首页，如下图1.2
 <center>![](resource/images/img2.png)</center>
-<center>图1.2 新浪首页</center>
+<center>图1.2 新浪首页</center>  
 #### 步骤三 通过超链接浏览新浪网站其他页面
 &emsp;&emsp;新浪网属于大型综合门户类型网站，页面首页负载的信息很多，超链接也很多，首页页面上的每一个超链接都可以链接到一个新浪网的二级页面，我们以新闻页面的浏览为例，在新浪网首页的导航栏处，点击“新闻”这个超链接，如下图1.3所示
 <center>![](resource/images/img3.png)</center>
-<center>图1.3 导航栏中的“新闻”链接</center>
+<center>图1.3 导航栏中的“新闻”链接</center>  
 &emsp;&emsp;点击之后，会通过超链接链接到相对应的新浪新闻页面，如下图1.4所示
  <center>![](resource/images/img4.png)</center>
- <center>图1.4 新浪网-新闻中心首页</center>
+ <center>图1.4 新浪网-新闻中心首页</center>  
 &emsp;&emsp;而该网页所对应的URL为：[http://news.sina.com.cn/](http://news.sina.com.cn/) 如下图1.5所示
 <center>![](resource/images/img5.png)</center>
-<center>图1.5 新浪网新闻中心首页URL</center>
+<center>图1.5 新浪网新闻中心首页URL</center>  
 &emsp;&emsp;你同样可以直接在浏览器里面输入新浪网新闻中心首页URL（[http://news.sina.com.cn/](http://news.sina.com.cn/)）然后点击回车，同样能够打开新浪网新闻中心首页。
 通过这个实验，我们应该掌握，以下两点内容：
 1.首先，每一个URL对应一个网页，也就是说，URL和网页之间是一一对应的关系；
@@ -70,10 +70,10 @@ web服务器有两层含义：
 - 打开新安装的Chrome浏览器（选择“开始”->“所有程序”->“Google Chrome” -> “Google Chrome”）。
 - Chrome浏览器的主界面非常简单，默认情况只有一行地址栏和几个功能按钮，如下图1.7所示。该工具条部分从左向右依次是：后退按钮、前进按钮、刷新按钮、主页按钮、地址栏、扩展插件图标、设置选项。
 <center>![](resource/images/img7.png)</center>
-<center>图1.7 Chrome浏览器主界面</center>
+<center>图1.7 Chrome浏览器主界面</center>  
 - Chrome浏览器的书签功能：在Chrome中添加当前网页到书签也很简单，只需要点击地址栏右侧的星号图标即可；而打开书签需要先配置Chrome浏览器，在浏览器工具栏上显示书签。配置方法：点击图1.1工具条最右侧的扳手图标，选择“设置”打开配置选项页面（如下图1.8所示）；点上“总是显示书签栏”选项即可。 
 <center>![](resource/images/img8.png)</center>
-<center>图1.8 Chrome浏览器配置选项页面</center>
+<center>图1.8 Chrome浏览器配置选项页面</center>  
 - Chrome浏览器的功能十分强大，其它常用配置选项，请大家自行摸索，在此不再赘述。
 
 Firefox浏览器的安装和简单使用  
@@ -85,11 +85,11 @@ Firefox浏览器也是一款主流浏览器，其最大优点在于，丰富的�
 - 打开新安装的Firefox浏览器（选择“开始”->“所有程序”->“Mozilla Firefox”）。
 - Firefox浏览器的基本设置和其它浏览器类似，在此不再赘述；此处主要给大家介绍Firefox浏览器附加组件的使用。在键盘上按下快捷键“Ctrl+Shift+A”，打开Firefox附加组件管理器（如下图1.9所示）。
 <center>![](resource/images/img9.png)</center>
-<center>图1.9 Firefox浏览器附加组件管理器</center>
+<center>图1.9 Firefox浏览器附加组件管理器</center>  
 - 在右上角搜索框中（如上图1.9所示）输入“Firebug”，查找Firefox浏览器五星级附加组件Firebug，结果显示页面可能如下图1.10所示。点击“安装”开始安装Firebug（安装成功后，需要重新启动Firefox浏览器）。安装好Firebug后，在浏览网页时，按下快捷键“F12”或在页面上右键单击并选择“使用Firebug查看元素”即在页面下方打开Firebug主窗口。
 注：Firebug是Firefox浏览器中的一款功能非常强大的Web开发工具，可以实现一系列常用的Web功能调试（例如：HTML、CSS、DOM查看，网站整体分析，尤其是JavaScript调试功能，HTTP请求响应分析等等），关于Firebug的具体使用，后续再详细介绍。
 <center>![](resource/images/img10.png)</center>
-<center>图1.10 Chrome浏览器配置选项页面</center>
+<center>图1.10 Chrome浏览器配置选项页面</center>  
 - Firefox浏览器的附加组件功能十分强大，用户完全可以选择自己喜欢的浏览器插件来为Firefox浏览器添加功能，笔者经常使用的Firefox插件有：Firebug、Web Developer等等；具体组件的安装和使用在此不再赘述，请读者自行完成。
 ## 六	实验总结（由学生完成并提交）
 - 实验过程中碰到问题及解决办法
