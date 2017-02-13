@@ -236,7 +236,7 @@ HTML标签在CSS中具有一些默认的显示外观，例如<div>标签默认�
 
 ## 	六 实验作业（完成并提交）
 
-使用Sublime Text 3完成本实验的网页文件，把作业上传到`https://github.com`服务器，并把`https://github.com`地址提交到雪梨教育同步课程相应任务下。
+使用Sublime Text 3完成本实验的网页文件，把作业上传到`https://github.com`上，并把`https://github.com`地址提交到雪梨教育同步课程相应任务下。
 
 ## 	七 推荐阅读
 
