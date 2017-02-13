@@ -11,10 +11,10 @@
 <center>![](resource/images/img3.png)</center>  
 图2-3 横向导航条   
 &emsp;&emsp;本次实验要求实现以上导航菜单的样式。
-三、	准备材料
+## 三、	准备材料
 本实验目录结构如下：  
 <center>![](resource/images/img4.png)</center>  
-图 3-1文件目录结构   
+图 3-1文件目录结构    
 &emsp;&emsp;本实验用到的图片素材及文字素材全部在lab8中。
 ## 四、	实验步骤
 &emsp;&emsp;我们实现图2-1和图2-3的导航菜单效果，图2-2导航效果请自行实现。
@@ -25,14 +25,14 @@
 ### 步骤2.	样式修饰  
 &emsp;&emsp;在daohang1.css文件中编写CSS样式代码，使得达到图2-1的效果。  
 &emsp;&emsp;设置“产品列表”div的背景图、宽度和高度。  
-&emsp;&emsp;设置无序列表ul的列表项图标、背景图。  
+&emsp;&emsp;设置无序列表ul的列表项图标、背景图。   
 &emsp;&emsp;设置列表项的背景图、位置（宽度、高度）：  
-                                margin-left: 40px;
-							 	padding-top: 5px;
-							    background-position: -3em 90%;
-&emsp;&emsp;设置列表项超链接的字体和样式。  
+                                margin-left: 40px;  
+							 	padding-top: 5px;  
+							    background-position: -3em 90%;  
+&emsp;&emsp;设置列表项超链接的字体和样式。   
 &emsp;&emsp;设置选中列表项超链接的字体和样式。  
-&emsp;&emsp;设置效果图中的底端圆角效果，使用圆角的背景图片。  
+&emsp;&emsp;设置效果图中的底端圆角效果，使用圆角的背景图片。 
 ### 步骤3.	实现图2-3导航效果  
 &emsp;&emsp;在daohang3.html文件中编写html元素内容，  
 <center>![](resource/images/img6.png)</center>  
