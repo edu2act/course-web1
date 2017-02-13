@@ -125,11 +125,11 @@ HTML标签在CSS中具有一些默认的显示外观，例如<div>标签默认�
 ####  CSS样式
 1.	#header样式：高度205px；背景图片images/bg.gif；背景平铺方式（水平居中、垂直居上）。
 
-2.	#banner相关样式：宽度1000px；高度164px；水平居中；logo图片居中上边界38px，居左边界25px；logo图片使用<img />标签插入到页面，图片为images/logo.png。
+2.	#banner相关样式：宽度1000px；高度164px；水平居中；logo图片居中上边界38px，居左边界25px；logo图片使用`<img />`标签插入到页面，图片为images/logo.png。
 
 3.	#nav相关样式：高度40px；背景图片images/nav.jpg；内容部分（.nav_body）宽度为1000px，水平居中；导航栏宽度800px，文字加粗，文字颜色#fff；导航栏中的超链接行高为40px，鼠标经过时文字颜色为#f9f603，鼠标经过时无下划线；“首页”链接文字颜色为#f9f603。
 
-4.	搜索框相关样式：输入框为<input type=”text” />，宽度为140px，高度为19px，背景颜色为#f8f5ee；“搜索”为<input type=”button” />，宽度为44px，高度为21px，背景颜色为#000，文字颜色为#fff，边框为1px  solid  #f8f5ee。
+4.	搜索框相关样式：输入框为`<input type=”text” />`，宽度为140px，高度为19px，背景颜色为#f8f5ee；“搜索”为`<input type=”button” />`，宽度为44px，高度为21px，背景颜色为#000，文字颜色为#fff，边框为1px  solid  #f8f5ee。
 
 ###   步骤四：分析页面主体结构
 
@@ -169,7 +169,7 @@ HTML标签在CSS中具有一些默认的显示外观，例如<div>标签默认�
 
 1)	#news_pic相关样式：宽度324px，高度243px；背景图片images/news_bg.png；左浮动；图片区域宽度300px，高度200px；图片文字区域宽度300px，高度22px，居中对齐。
 
-2)	#news_list相关样式：宽度330px，左外边距38px，左浮动；标题部分“培训动态”背景图片为images/change.png；“更多”链接为一<span>标签，右浮动；新闻列表为ul > li > a结构，其中li的行高为30px；新闻标题后的时间为一<span>标签，右浮动。
+2)	#news_list相关样式：宽度330px，左外边距38px，左浮动；标题部分“培训动态”背景图片为images/change.png；“更多”链接为一`<span>`标签，右浮动；新闻列表为ul > li > a结构，其中li的行高为30px；新闻标题后的时间为一`<span>`标签，右浮动。
 
 3)	#news_announce相关样式：宽度277px，上外边距为20px，右浮动；标题“站内公告为一”背景图片images/board.png；公告列表部分宽度285px，高度210px，背景图片images/board_bg.png。
 
@@ -236,7 +236,7 @@ HTML标签在CSS中具有一些默认的显示外观，例如<div>标签默认�
 
 ## 	六 实验作业（完成并提交）
 
-使用Sublime Text 3完成本实验的网页文件，把作业上传到ftp服务器，并把ftp地址提交到雪梨教育同步课程相应任务下。
+使用Sublime Text 3完成本实验的网页文件，把作业上传到`https://github.com`服务器，并把`https://github.com`地址提交到雪梨教育同步课程相应任务下。
 
 ## 	七 推荐阅读
 
