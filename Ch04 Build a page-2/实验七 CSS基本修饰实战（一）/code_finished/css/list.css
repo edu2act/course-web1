@@ -1,0 +1,10 @@
+.leftmenu a{
+	font-size: 14px;
+}
+.leftmenu a:hover{
+	text-decoration: none;
+	color:#b9f605;
+}
+ul li span{
+	text-align: right;
+}

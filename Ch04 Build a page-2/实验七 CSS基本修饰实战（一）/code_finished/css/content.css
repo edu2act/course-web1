@@ -1,0 +1,19 @@
+h1{
+	font-family: "微软雅黑";
+	text-align: center;
+	font-size: 20px;
+	font-weight: normal;
+	color:#686868;
+}
+h2{
+	text-align: center;
+	font-size: 12px;
+	font-weight: normal;
+	color:#a9a8a8;
+}
+.font_next{
+	color:#22a3d3;
+}
+.textp{
+	text-indent: 2em;
+}
