@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>超链接的样式设置</title>
+    <style type="text/css">
+        body {
+            line-height: 2em;
+        }
+        .second-a a:link { text-decoration: none; color: black;}
+        .second-a a:visited { color: #999999; }
+        .second-a a:hover { text-decoration: underline; color: lime; }
+        .second-a a:active { color: #ff0000; }
+    </style>
+</head>
+<body>
+    <div class="first-a"><a href="#?a" target="_self">默认样式 这是一个超链接</a></div>
+    <div class="second-a"><a href="#?e" target="_self">设置了样式的 这是一个超链接</a></div>
+</body>
+</html>

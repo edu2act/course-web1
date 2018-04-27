@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>列表常用样式</title>
+    <style type="text/css">
+        body {
+            font-size: 30px;
+        }
+        ul.list-type {
+            list-style-type: square;
+        }
+
+        ul.list-postion-out {
+            list-style-position: outside;
+        }
+        ul.list-postion-out li {
+            background-color: antiquewhite;
+            width: 300px;
+        }
+
+        ul.list-postion-in {
+            list-style-position: inside;
+        }
+        ul.list-postion-in li {
+            background-color: antiquewhite;
+            width: 300px;
+        }
+
+        ul.list-arrow {
+            list-style-image: url("image/arrow2.png");
+            line-height: 30px;
+        }
+
+        ul.list-style {
+            list-style: url("image/arrow2.png") inside circle;
+        }
+    </style>
+</head>
+<body>
+    <ul class="list-type">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+    </ul>
+    
+    <ul class="list-postion-out">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+    </ul>
+
+    <ul class="list-postion-in">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+    </ul>
+ 
+    <ul class="list-arrow">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+    </ul>
+
+    <ul class="list-style">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS伪类应用</title>
+    <style type="text/css">
+        body {
+            font-size: 40px;
+        }
+        div {
+            width: 400px;
+            height: 100px;
+            line-height: 1.5em;
+            margin-bottom: 15px;
+            text-indent: 2em;
+        }
+        div:hover {
+            background-color: red;
+        }
+        div:active {
+            background-color: black;
+        }
+        div:focus{
+            background-color: brown;
+        }
+
+        input[type=text]  {
+            width: 400px;
+        }
+        input[type=text]:focus  {
+            background-color: aquamarine;
+        }
+
+        ul {
+            width: 400px;
+        }
+        ul li:first-child {
+            background-color: #999999;
+        }
+
+        .div-lang:lang(en) {
+            background-color: aliceblue;
+        }
+        .div-lang:lang(zh) {
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <div>div鼠标效果</div>
+    <div contenteditable="true">div鼠标效果</div>
+    <input type="text">
+    <ul>
+        <li>第一个</li>
+        <li>第二个</li>
+        <li>第三个</li>
+        <li>第四个</li>
+        <li>第五个</li>
+    </ul>
+
+    <div class="div-lang" lang="en">this is a text</div>
+    <div class="div-lang" lang="zh">这里是中文</div>
+</body>
+</html>

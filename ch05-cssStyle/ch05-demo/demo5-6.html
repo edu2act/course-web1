@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文本对齐设置、文本修饰设置和行高设置</title>
+    <style type="text/css">
+        div {
+            margin-bottom: 20px;
+            border: 2px solid coral ;
+            line-height: 25px;
+            height: 80px;
+            font-size: 30px;
+        }
+        .divnoborder {
+            border: 0;
+        }
+        .align-left {
+            text-align: left;
+        }
+        .align-center {
+            text-align: center;
+        }
+        .align-right {
+            text-align: right;
+        }
+        /**
+        额外的内容
+         */
+        .vertical-middle {
+            vertical-align: middle;
+            text-align: center;
+            line-height: 100px;
+        }
+
+        .text-overline {
+            text-decoration: overline;
+        }
+        .text-underline {
+            text-decoration: underline;
+        }
+        .text-through {
+            text-decoration: line-through;
+        }
+        .text-none {
+            text-decoration: none;
+        }
+
+        .div-color-green {
+            color: green;
+        }
+        .div-color-16 {
+            color: #008000;
+        }
+        .div-color-rgb {
+            color: rgb(0, 128, 0);
+        }
+
+        .div-lineheight-width {
+            width: 400px;
+        }
+        .lineheight-16px {
+            line-height: 16px;
+        }
+        .lineheight-24px {
+            line-height: 24px;
+        }
+        .lineheight-1em {
+            line-height: 1em;
+        }
+        .lineheight-15em {
+            line-height: 1.5em;
+        }
+        .lineheight-18em {
+            line-height: 1.8em;
+        }
+        .lineheight-per {
+            line-height: 180%;
+        }
+    </style>
+</head>
+<body>
+    <!-- 文本对齐 -->
+    <div>默认对齐 </div>
+    <div class="align-left">左对齐 </div>
+    <div class="align-center">居中 </div>
+    <div class="align-right">右对齐 </div>
+    <div class="vertical-middle">垂直居中+水平居中</div>
+    <!-- 文本对齐 结束 -->
+
+    <!-- 文本修饰 -->
+    <div class="divnoborder text-overline"><br>上划线</div>
+    <div class="divnoborder text-underline"><br>下划线</div>
+    <div class="divnoborder text-through"><br>删除线 </div>
+    <div class="divnoborder">默认没有下划线</div>
+
+    <div class="divnoborder"><a href="#" target="_self"> a元素默认有下划线</a></div>
+    <div class="divnoborder"><a href="#" target="_self" class="text-none"> 取消a元素下划线</a></div>
+    <!-- 文本修饰 结束-->
+
+    <!-- 文本颜色设置 -->
+    <div class="div-color-green">颜色关键字</div>
+    <div class="div-color-16">16进制颜色</div>
+    <div class="div-color-rgb">rgb颜色</div>
+    <!-- 文本颜色设置 结束 -->
+
+
+    <!-- 行高设置 -->
+    <div class="div-lineheight-width">默认行高 </div>
+    <div class="div-lineheight-width lineheight-16px">固定值行高 16px</div>
+    <div class="div-lineheight-width lineheight-24px">固定值行高 24px</div>
+    <div class="div-lineheight-width lineheight-1em">相对值行高 1em</div>
+    <div class="div-lineheight-width lineheight-15em">相对值行高 1.5em</div>
+    <div class="div-lineheight-width lineheight-18em">相对值行高 1.8em</div>
+    <div class="div-lineheight-width lineheight-per">相对值行高 百分比</div>
+    <!-- 行高设置 结束-->
+</body>
+</html>

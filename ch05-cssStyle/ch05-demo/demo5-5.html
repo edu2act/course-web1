@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文本缩进样式设置</title>
+    <style type="text/css">
+        body {
+            font-size: 40px;
+        }
+        div {
+            width: 800px;
+            /* font-size: 16px; */
+            margin-bottom: 25px;
+            margin-left: 100px;
+            /* line-height: 25px; */
+            border: 2px solid coral ;
+        }
+        .div-indent-em {
+            text-indent: 2em;
+        }
+        .div-indent-px {
+            text-indent: 80px;
+        }
+        /* .div-indent-px12 {
+            text-indent: 24px;
+        } */
+        /* .div-indent-em2 { 
+            text-indent: 2em;
+        } */
+        .div-indent-left {       
+            text-indent: -2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="div-indent-em">font-size: 40px;text-indent: 2em;</div>
+    <div class="div-indent-px">font-size: 40px;text-indent: 80px;</div>
+    <!-- <div class="div-indent-px12">font-size: 40px;text-indent: 24px;</div> -->
+    <!-- <div class="div-indent-em2">font-size: 40px;text-indent: 2em;</div> -->
+    <div class="div-indent-left">font-size: 40px;text-indent: -2em;</div>
+</body>
+</html>
