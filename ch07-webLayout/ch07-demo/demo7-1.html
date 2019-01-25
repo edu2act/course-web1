@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>浮动</title>
     <style>
         *{
             padding: 0;
@@ -11,17 +11,22 @@
         .box{
             width: 500px;
             height: 100px;
-            border: 2px solid #000;
+
+            border: 2px solid #000;/*盒模型*/
             margin: 50px auto;
+            padding:20px;
         }
-        .box>div{
+        .box>div{ /*选中.box里面的第一代子div*/
             width: 100px;
             height: 100px;
+            line-height: 100px;
+            text-align: center;
+            font-size:30px;
             background: red;
-            float: left;
+            float: left; /*左浮动*/
         }
         .box>.right{
-            float: right;
+            float: right; /*右浮动*/
         }
     </style>
 </head>
@@ -29,7 +34,6 @@
     <div class="box">
         <div class="left">1</div>
         <div class="right">2</div>
-       
     </div>
 </body>
 </html>

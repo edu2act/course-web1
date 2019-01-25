@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		a{
+			text-decoration: none;
+		}
+		/*群组选择器：逗号分隔的这三项都有下面的样式*/
+		ul,li,ol{
+			list-style: none;
+		}
+		.container{
+			width: 1226px;
+			height: 615px;
+			background-color: #ccc;
+			margin: 0 auto;
+		}
+		/*子选择器：只有container下面的第一级div才有该样式*/
+		.container>div{
+			float:left;
+		}
+		.left{
+			width:234px;
+		}
+		.right{
+			width: 992px;
+			height: 615px;
+			background-color: red;
+		}
+		.right>ul>li{
+			margin-left: 14px;
+			margin-bottom: 14px;
+			width: 234px;
+			font-size:12px;
+			position: relative;
+			height: 300px;
+			text-align: center;
+			background-color: #fff;
+			float: left;
+		}
+		.img{
+			margin-top: 55px;
+		}
+		.p1{
+			margin-top: 35px;
+			color: #333;
+		}
+		.p2{
+			color: #b0b0b7;
+		}
+		.p3{
+			margin-top: 10px;
+		}
+		.p3>span{
+			color: #ff6700;
+		}
+		.p3>del{
+			color: #c1b0b0;
+					}
+		.hide{
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			padding: 0 30px;
+			width: 174px;
+			line-height: 24px;
+			height: 76px;
+			color: #fff;
+			display: none;
+			background-color: #ff6700;
+		}
+		.li{
+			background: red!important;
+		}
+		
+		/*li划入的时候，他下面的 .hide的display属性变为block;*/
+		/*css也可实现该效果*/
+		.right>ul>li:hover .hide{
+			display: block;
+		}
+
+		/*包含选择器：.active 下面的.hide ，无论.hide是第几级子元素，只要在active里就行*/
+		.active .hide{
+			display: block;
+		}
+	</style>
+	<script>
+		// 划入划出效果
+		// window.onload = function(){
+		// 	var list = document.getElementById('list').children;
+		// 	for(var i=0; i<list.length; i++){
+		// 		list[i].onmouseover = function(){
+		// 			this.className = 'li active';
+		// 		}
+		// 		list[i].onmouseout = function(){
+		// 			this.className = 'li';
+		// 		}
+		// 	}
+		// }
+
+	</script>
+</head>
+<body>
+	<div class="container">
+		<div class="left">
+			<img src="images/mi.png" alt="">
+		</div>
+		<div class="right">
+			<ul id="list">
+				<li>
+					<img class="img" src="images/m1.png" alt="">
+					<p class="p1">小米电视</p>
+					<p class="p2">小米电视小米电视</p>
+					<p class="p3">
+						<span>999元</span>
+						<del>1199元</del>
+					</p>
+					<div class="hide">
+						<p>小米视小米电视小米电视小米电视小米</p>
+						<p>电视小米</p>
+					</div>
+				</li>
+				<li>
+					<img class="img" src="images/m2.png" alt="">
+					<p class="p1">小米电视</p>
+					<p class="p2">小米电视小米电视</p>
+					<p class="p3">
+						<span>999元</span>
+						<del>1199元</del>
+					</p>
+					<div class="hide">
+						<p>小米视小米电视小米电视小米电视小米</p>
+						<p>电视小米</p>
+					</div>
+				</li>
+				<li>
+					<img class="img" src="images/m3.png" alt="">
+					<p class="p1">小米电视</p>
+					<p class="p2">小米电视小米电视</p>
+					<p class="p3">
+						<span>999元</span>
+						<del>1199元</del>
+					</p>
+					<div class="hide">
+						<p>小米视小米电视小米电视小米电视小米</p>
+						<p>电视小米</p>
+					</div>
+				</li>
+				<li>
+					<img class="img" src="images/mi4.png" alt="">
+					<p class="p1">小米电视</p>
+					<p class="p2">小米电视小米电视</p>
+					<p class="p3">
+						<span>999元</span>
+						<del>1199元</del>
+					</p>
+					<div class="hide">
+						<p>小米视小米电视小米电视小米电视小米</p>
+						<p>电视小米</p>
+					</div>
+				</li>
+				<li>
+					<img class="img" src="images/m1.png" alt="">
+					<p class="p1">小米电视</p>
+					<p class="p2">小米电视小米电视</p>
+					<p class="p3">
+						<span>999元</span>
+						<del>1199元</del>
+					</p>
+					<div class="hide">
+						<p>小米视小米电视小米电视小米电视小米</p>
+						<p>电视小米</p>
+					</div>
+				</li>
+				<li>
+					<img class="img" src="images/m1.png" alt="">
+					<p class="p1">小米电视</p>
+					<p class="p2">小米电视小米电视</p>
+					<p class="p3">
+						<span>999元</span>
+						<del>1199元</del>
+					</p>
+					<div class="hide">
+						<p>小米视小米电视小米电视小米电视小米</p>
+						<p>电视小米</p>
+					</div>
+				</li>
+				<li>
+					<img class="img" src="images/m1.png" alt="">
+					<p class="p1">小米电视</p>
+					<p class="p2">小米电视小米电视</p>
+					<p class="p3">
+						<span>999元</span>
+						<del>1199元</del>
+					</p>
+					<div class="hide">
+						<p>小米视小米电视小米电视小米电视小米</p>
+						<p>电视小米</p>
+					</div>
+				</li>
+				<li>
+					<img class="img" src="images/m1.png" alt="">
+					<p class="p1">小米电视</p>
+					<p class="p2">小米电视小米电视</p>
+					<p class="p3">
+						<span id="span">999元</span>
+						<del>1199元</del>
+					</p>
+					<div class="hide">
+						<p>小米视小米电视小米电视小米电视小米</p>
+						<p>电视小米</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</body>
+<script>
+		window.onload = function(){
+			var ul = document.getElementById('list');
+			var sp = document.getElementById('span');
+			
+			// sp.childNodes[0].nodeValue = 22222;//这种方式比较麻烦
+			// sp.innerHTML = 1111111;//建议这种方式
+
+			var list = ul.children;
+
+			// 生成一个新的，然后替换原来的(注意不用appendChild了)
+			// var li = document.createElement('li');
+			// li.innerHTML = '新添加的';
+			// ul.replaceChild(li,list[7])
+
+			// 克隆一个新的，再替换
+			// var clon = list[1].cloneNode(true);//加上true参数，可把元素里的内容克隆了
+			// console.log(clon)
+			// ul.replaceChild(clon,list[7])
+
+			// 删除元素
+			// ul.removeChild(list[7]);
+			// ul.removeChild(list[6]);
+			// ul.removeChild(list[5]);
+			// list[7].className = '';
+			// list[7].removeAttribute('class')
+		}
+
+	</script>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>固定定位</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            height: 2000px; /*设置高度足够高,出现滚动条*/
+        }
+
+        div {
+            width:200px;
+            height:400px;
+            line-height: 400px;
+            text-align: center;
+            font-size:30px;
+            font-weight:bold;
+            background-color: red;
+            color:white;
+
+
+            position: fixed;
+            top: 200px;
+            left:50px;
+        }
+
+        .advert-right{
+            left:auto; /*覆盖上面的left:50px;*/
+            right:50px;
+        }   
+    </style>
+</head>
+
+<body>
+    <div class="advert-left">我是广告1</div>
+    <div class="advert-right">我是广告2</div>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>相对定位</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            padding: 50px 200px;
+        }
+
+        div.parent {
+            width: 500px;
+            height: 500px;
+            border: 3px dotted orange;
+        }
+
+        div.red {
+            width: 200px;
+            height: 200px;
+            margin-bottom: 20px;
+            background: red;
+        }
+
+        div.green {
+            width: 200px;
+            height: 200px;
+            background: green;
+        }
+        div.red{
+            position:relative;
+            top:150px;
+            /*left:40px;*/
+        } 
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="red"></div>
+        <div class="green"></div>
+    </div>
+</body>
+
+</html>

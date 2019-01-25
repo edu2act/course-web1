@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>图片与段落之间的空隙</title>
+    <style type="text/css">
+	    * {
+	        padding: 0;
+	        margin: 0;
+	    }
+
+	    body {
+	        padding: 150px;
+	    }
+
+	    div{
+	        width: 400px; /*没有设置高度*/
+	        border: 2px solid red;
+	        padding: 5px;
+
+	        overflow: hidden;
+	        /*父元素不设高度并且子元素浮动时，使父元素高度自动适应子元素高度*/
+	    }
+
+	    img {
+	        float: left;
+	        /*padding-right:30px;*/
+	        /*margin-right:30px;*/
+	    }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <img src="images/33.JPG" width="50" height="50" />
+        <p style="margin-left: 30px;">小狗很可爱小狗很漂亮小狗很可爱小狗很漂亮小狗很可爱小狗很漂亮小狗很可爱小狗很漂亮 小狗很可爱小狗很漂亮小狗很可爱小狗很漂亮小狗很可爱小狗很漂亮小狗很可爱小狗很漂亮</p>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,200 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>综合实例</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <form method="get" action="">
+        <table border="1" bordercolor="gray" cellpadding="5" cellspacing="0">
+            <tr>
+                <td width="82">用户名：</td>
+                <td width="320">
+                    <input type="text" name="name1" value="请输入你的名字" />
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="white">密码：</td>
+                <td>
+                    <input type="password" name="password" value="123" />
+                </td>
+            </tr>
+            <tr>
+                <td>确认密码：</td>
+                <td>
+                    <input type="password" name="oncemorepassword" />
+                </td>
+            </tr>
+            <tr>
+                <td>性别：</td>
+                <td>
+                    <input type="radio" name="sex" value="man" checked/>男
+                    <input type="radio" name="sex" value="woman" /> 女
+                </td>
+            </tr>
+            <tr>
+                <td>生日：</td>
+                <td>
+                    <select name="nianli">
+                        <option>公历</option>
+                        <option>农历</option>
+                    </select>
+                    <select name="year">
+                        <option>年</option>
+                        <option selected>2018年</option>
+                        <option>2017年</option>
+                        <option>2016年</option>
+                        <option>2015年</option>
+                        <option>2014年</option>
+                        <option>2013年</option>
+                        <option>2012年</option>
+                        <option>2011年</option>
+                        <option>2010年</option>
+                    </select>
+                    <select name="month">
+                        <option>月</option>
+                        <option>1月</option>
+                        <option>2月</option>
+                        <option>3月</option>
+                        <option selected>4月</option>
+                        <option>5月</option>
+                        <option>6月</option>
+                        <option>7月</option>
+                        <option>8月</option>
+                        <option>9月</option>
+                        <option>10月</option>
+                        <option>11月</option>
+                        <option>12月</option>
+                    </select>
+                    <select name="date">
+                        <option>日</option>
+                        <option selected>1日</option>
+                        <option>2日</option>
+                        <option>3日</option>
+                        <option>4日</option>
+                        <option>5日</option>
+                        <option>6日</option>
+                        <option>7日</option>
+                        <option>8日</option>
+                        <option>9日</option>
+                        <option>10日</option>
+                        <option>11日</option>
+                        <option>12日</option>
+                        <option>13日</option>
+                        <option>14日</option>
+                        <option>15日</option>
+                        <option>16日</option>
+                        <option>17日</option>
+                        <option>18日</option>
+                        <option>19日</option>
+                        <option>20日</option>
+                        <option>21日</option>
+                        <option>22日</option>
+                        <option>23日</option>
+                        <option>24日</option>
+                        <option>25日</option>
+                        <option>26日</option>
+                        <option>27日</option>
+                        <option>28日</option>
+                        <option>29日</option>
+                        <option>30日</option>
+                        <option>31日</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>所在地：</td>
+                <td>
+                    <select name="guoji">
+                        <option>中国</option>
+                        <option>美国</option>
+                        <option>英国</option>
+                        <option>法国</option>
+                        <option>日本</option>
+                        <option>韩国</option>
+                        <option>澳大利亚</option>
+                        <option>印度尼西亚</option>
+                    </select>
+                    <select name="sheng">
+                        <option>河北</option>
+                        <option>河南</option>
+                        <option>四川</option>
+                        <option>陕西</option>
+                        <option>山西</option>
+                        <option>云南</option>
+                        <option>海南</option>
+                    </select>
+                    <select name="shi">
+                        <option>石家庄</option>
+                        <option>保定</option>
+                        <option>唐山</option>
+                        <option>邢台</option>
+                        <option>邯郸</option>
+                        <option>廊坊</option>
+                        <option>张家口</option>
+                        <option>沧州</option>
+                        <option>衡水</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>验证码：</td>
+                <td>
+                    <input type="text" name="uername4" /><img src="images/yanzhengma.jpg" width="80px" />
+                </td>
+            </tr>
+            <tr>
+                <td>证件类型：</td>
+                <td>
+                    <select name="zhengjianleixing">
+                        <option>身份证</option>
+                        <option>学生证</option>
+                        <option>军官证</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>证件号：</td>
+                <td>
+                    <input type="text" name="zhengjianhao" />
+                </td>
+            </tr>
+            <tr>
+                <td>爱好：</td>
+                <td>
+                    <input type="checkbox" name="favorite[]" value="music" /> 音乐
+                    <input type="checkbox" name="favorite[]" value="read" checked /> 读书
+                    <input type="checkbox" name="favorite[]" value="dance" checked/> 跳舞
+                    <input type="checkbox" name="favorite[]" value="xiaqi" /> 下棋
+                    <input type="checkbox" name="favorite[]" value="other" /> 其他
+                </td>
+            </tr>
+            <tr>
+                <td>说明：</td>
+                <td>
+                    <textarea name="des" cols="30" rows="5" id="uername5"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>上传头像</td>
+                <td>
+                    <input type="file" name="pic" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" name="button" value="提交" />
+                    <input type="reset" name="button2" value="重置" />
+                    <input type="button" name="button3" value="按钮" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>对称定位</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            padding: 50px 200px;
+        }
+
+        div.parent {
+            width: 700px;
+            height: 400px;
+            border: 3px dotted orange;
+        }
+
+        div.red {
+            width: 250px;
+            height: 250px;
+            background: red;
+        }
+
+        div.green {
+            width: 250px;
+            height: 250px;
+            background: green;
+        }
+
+        div.parent {
+            position: relative;
+        }
+
+        div.red {
+            position: absolute;
+            top: 75px;
+            left: 30px;
+        }
+
+        div.green {
+            position: absolute;
+            top: 75px;
+            right: 30px;
+        }
+    </style>
+</head>
+<body>
+<div class="parent">
+    <div class="red"></div>
+    <div class="green"></div>
+</div>
+</body>
+</html>

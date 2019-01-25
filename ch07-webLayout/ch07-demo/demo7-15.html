@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>网页布局</title>
+    <style>
+        * { /*清除浏览器默认值*/
+            padding: 0;
+            margin: 0;
+        }
+
+        .header {
+            width: 1000px;
+            height: 100px;
+            border-top: 5px solid #284c7e;
+            margin: 0 auto; /*水平自动居中*/
+        }
+
+        .nav {
+            width: 1000px;
+            height: 60px;
+            border: 5px solid red;
+            margin: 0 auto;
+        }
+
+        .banner {
+            width: 1257px;
+            height: 397px;
+            border: 5px solid #d6d6d6;
+            margin: 0 auto;
+        }
+
+        .logo {
+            float: left;
+        }
+
+        .logo>img {
+            margin-top: 10px;
+        }
+
+        .search {
+            float: right;
+        }
+
+        .search>input {
+            width: 200px;
+            height: 31px;
+            border: 1px solid #b6b6b6;
+            text-indent: 10px;
+            margin-top: 30px;
+            margin-right: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="images/logo.png" alt="河北师大">
+        </div>
+        <div class="search">
+            <input type="text" value="搜索">
+        </div>
+    </div>
+    <div class="nav"></div>
+    <div class="banner"></div>
+</body>
+
+</html>

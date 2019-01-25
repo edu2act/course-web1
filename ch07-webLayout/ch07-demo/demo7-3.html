@@ -1,52 +1,36 @@
 <!DOCTYPE html>
 <html>
+
 <head lang="en">
     <meta charset="UTF-8">
-    <title></title>
-    <style>
-        * {
-            padding: 0;
-            margin: 0;
-        }
+    <title>固定高度阻止父高度塌陷</title>
+    <style type="text/css">
+	    * {
+	        padding: 0;
+	        margin: 0;
+	    }
 
-        body {
-            padding: 50px 200px;
-        }
+	    body {
+	        padding: 150px;
+	    }
 
-        div.parent {
-            width: 500px;
-            height: 500px;
-            border: 3px dotted orange;
-        }
+	    div {
+	        width: 400px;
+	        border:2px solid red;
+	        padding:5px;
+	    }
 
-        div.red {
-            width: 200px;
-            height: 200px;
-            margin-bottom: 20px;
-            background: red;
-        }
-
-        div.green {
-            width: 200px;
-            height: 200px;
-            background: green;
-        }
-
-
-        /* div.parent{
-            position:relative;
-        }
-        div.red{
-            position:absolute;
-            top:150px;
-            left:240px;
-        } */
+	    img {
+	        float: left;
+	    }
     </style>
 </head>
+
 <body>
-<div class="parent">
-    <div class="red"></div>
-    <div class="green"></div>
-</div>
+    <div>
+        <img src="images/33.JPG"  width="200" height="200" />
+        <p>小狗很可爱小狗很漂亮</p>
+    </div>
 </body>
+
 </html>

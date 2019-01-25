@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>overflow属性</title>
+    <style type="text/css">
+	    * {
+	        padding: 0;
+	        margin: 0;
+	    }
+
+	    body {
+	        padding: 150px;
+	    }
+
+	    div{
+	        width: 400px; /*没有设置高度*/
+	        border: 2px solid red;
+	        padding: 5px;
+
+	        /*overflow:visible;*/
+	        /*overflow:hidden;*/
+	        /*overflow:scroll;*/
+	        /*overflow: auto;*/
+	    }
+
+	    p{
+	    	width:300px; /*宽度比父div的宽度宽*/
+	    	border: 2px solid yellow;
+	    }
+
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <img src="images/33.JPG" width="200" height="200" />
+        <p>小狗很可爱小狗很漂亮小狗很可爱小狗很漂亮小狗很可爱小狗很漂亮小狗很可爱小狗很漂亮 小狗很可爱小狗很漂亮小狗很可爱小狗很漂亮小狗很可爱小狗很漂亮小狗很可爱小狗很漂亮</p>
+    </div>
+</body>
+
+</html>
