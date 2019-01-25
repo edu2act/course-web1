@@ -4,10 +4,10 @@
 - [知识点大纲](https://github.com/edu2act/course-web1/blob/master/materials/outlineList.md)
 
 ## 学习资料
+- [Web开发学习教程1](https://developer.mozilla.org/zh-CN/docs/learn)
+- [Web开发学习教程2](http://www.w3school.com.cn/)
 
-- [HTML + CSS 视频课程<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/video.png" height="13">](http://edu.51cto.com/course/course_id-3116.html)
-
-- [HTML + CSS 在线练习](http://www.imooc.com/learn/9)  
+- [HTML + CSS 视频课程](http://www.imooc.com/learn/9)  
   
 - [前端开发者手册](http://wiki.jikexueyuan.com/project/fedHandlebook/)  
   非常丰富的前端资料。
@@ -19,8 +19,5 @@
   学习网页布局的闯关游戏教程。
 
 - [markdown 学习](http://edu.51cto.com/course/course_id-7772.html)
-- [UI设计基础](http://www.edu2act.cn/course/UI-she-ji/1_1/?fromsystem=frontendWeb)
-- [Fireworks视频教程](http://edu.51cto.com/course/course_id-714.html)
-- [UI设计相关内容大纲](http://www.processon.com/view/5837d626e4b0b0c8d7a8d8fb)  
-	相关UI设计PPT及课件可从web1备课讨论组下载
+
 
