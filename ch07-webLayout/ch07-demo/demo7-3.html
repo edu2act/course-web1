@@ -1,36 +1,62 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <title>练习浮动float</title>
+    <meta charset="utf-8"/>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+        }
+        .news{
+            height:450px;/*固定高度*/
+            width:1000px;
+            margin:50px auto;
+        }
+        .left{
+            width:720px;
+            height:220px;
+            background-color:#edeaf1;
 
-<head lang="en">
-    <meta charset="UTF-8">
-    <title>固定高度阻止父高度塌陷</title>
-    <style type="text/css">
-	    * {
-	        padding: 0;
-	        margin: 0;
-	    }
+            float:left;
+        }
+        .right{
+            width:250px;
+            height:220px;
+            margin-left:30px;
+            background-color:#edeaf1;
+            
+            float:left;
+        }
+        .mo{
+            width:330px;
+            height:80px;
+            margin:20px 15px 0px 15px;
+            background-color:#b5a2c8;
 
-	    body {
-	        padding: 150px;
-	    }
-
-	    div {
-	        width: 400px;
-	        border:2px solid red;
-	        padding:5px;
-	    }
-
-	    img {
-	        float: left;
-	    }
+            float:left;
+        }
+        .ro{
+            width:230px;
+            height:60px;
+            margin:10px 10px 0px 10px;
+            background-color:#b5a2c8;
+        }
     </style>
 </head>
-
 <body>
-    <div>
-        <img src="images/33.JPG"  width="200" height="200" />
-        <p>小狗很可爱小狗很漂亮</p>
+<div class="news">
+    <div class="left">
+        <div class="mo">内容1</div>
+        <div class="mo">内容2</div>
+        <div class="mo">内容3</div>
+        <div class="mo">内容4</div>
     </div>
+    <div class="right">
+        <div class="ro">内容1</div>
+        <div class="ro">内容2</div>
+        <div class="ro">内容3</div>
+    </div>
+</div>
 </body>
-
 </html>

@@ -3,47 +3,38 @@
 
 <head lang="en">
     <meta charset="UTF-8">
-    <title>相对定位</title>
-    <style>
-        * {
-            padding: 0;
-            margin: 0;
-        }
+    <title>图片与段落之间的空隙</title>
+    <style type="text/css">
+	    * {
+	        padding: 0;
+	        margin: 0;
+	    }
 
-        body {
-            padding: 50px 200px;
-        }
+	    body {
+	        padding: 150px;
+	    }
 
-        div.parent {
-            width: 500px;
-            height: 500px;
-            border: 3px dotted orange;
-        }
+	    div{
+	        width: 400px; /*没有设置高度*/
+	        border: 2px solid red;
+	        padding: 5px;
 
-        div.red {
-            width: 200px;
-            height: 200px;
-            margin-bottom: 20px;
-            background: red;
-        }
+	        overflow: hidden;
+	        /*父元素不设高度并且子元素浮动时，使父元素高度自动适应子元素高度*/
+	    }
 
-        div.green {
-            width: 200px;
-            height: 200px;
-            background: green;
-        }
-        div.red{
-            position:relative;
-            top:150px;
-            /*left:40px;*/
-        } 
+	    img {
+	        float: left;
+	        /*padding-right:30px;*/
+	        /*margin-right:30px;*/
+	    }
     </style>
 </head>
 
 <body>
     <div class="parent">
-        <div class="red"></div>
-        <div class="green"></div>
+        <img src="images/33.JPG" width="50" height="50" />
+        <p style="margin-left: 30px;">小狗很可爱小狗很漂亮小狗很可爱小狗很漂亮小狗很可爱小狗很漂亮小狗很可爱小狗很漂亮 小狗很可爱小狗很漂亮小狗很可爱小狗很漂亮小狗很可爱小狗很漂亮小狗很可爱小狗很漂亮</p>
     </div>
 </body>
 

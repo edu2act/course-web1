@@ -3,7 +3,7 @@
 
 <head lang="en">
     <meta charset="UTF-8">
-    <title>伪类:after + clear:both清除浮动</title>
+    <title>添加空元素clear:both清除浮动</title>
     <style type="text/css">
 	    * {
 	        padding: 0;
@@ -15,17 +15,9 @@
 	    }
 
 	    div.parent {
-	        width: 400px; /*没有设置高度*/
-	        border: 2px solid red;
-	        padding: 5px;
-	    }
-
-	    .clearfix:after {
-	        content: "";
-	        height: 0;
-	        display: block;
-	        /*block宽度会横向填充满屏幕，在父元素的最后追加一个height:0，占满屏幕的看不见的细长条,和添加空div元素原理相同*/
-	        clear: both;
+	        width: 400px;/*没有设置高度*/	    
+	        border:2px solid red;
+	        padding:5px;
 	    }
 
 	    img {
@@ -35,9 +27,11 @@
 </head>
 
 <body>
-    <div class="parent clearfix">
-        <img src="images/33.JPG" width="200" height="200" />
-        <p>小狗很可爱小狗很漂亮小狗很可爱小狗很漂亮小狗很可爱小狗很漂亮小狗很可爱小狗很漂亮 小狗很可爱小狗很漂亮小狗很可爱小狗很漂亮小狗很可爱小狗很漂亮小狗很可爱小狗很漂亮</p>
+    <div class="parent">
+        <img src="images/33.JPG"  width="200" height="200" />
+        <p>小狗很可爱小狗很漂亮小狗很可爱小狗很漂亮小狗很可爱小狗很漂亮小狗很可爱小狗很漂亮 小狗很可爱小狗很漂亮小狗很可爱小狗很漂亮小狗很可爱小狗很漂亮小狗很可爱小狗很漂亮
+        </p>
+        <div style="clear:both;"></div> <!-- 不允许左右两边有浮动的元素 -->
     </div>
 </body>
 

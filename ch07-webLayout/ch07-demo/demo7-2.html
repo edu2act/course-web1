@@ -1,62 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>练习浮动float</title>
-    <meta charset="utf-8"/>
-    <style>
-        *{
-            padding:0;
-            margin:0;
-        }
-        .news{
-            height:450px;/*固定高度*/
-            width:1000px;
-            margin:50px auto;
-        }
-        .left{
-            width:720px;
-            height:220px;
-            background-color:#edeaf1;
-
-            float:left;
-        }
-        .right{
-            width:250px;
-            height:220px;
-            margin-left:30px;
-            background-color:#edeaf1;
-            
-            float:left;
-        }
-        .mo{
-            width:330px;
-            height:80px;
-            margin:20px 15px 0px 15px;
-            background-color:#b5a2c8;
-
-            float:left;
-        }
-        .ro{
-            width:230px;
-            height:60px;
-            margin:10px 10px 0px 10px;
-            background-color:#b5a2c8;
-        }
-    </style>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		.box{
+			width: 200px;
+			height: 200px;
+			border: 2px solid red;
+		}
+		.box div{
+			float: left;
+			background-color: #ccc;
+			margin-left: 10px;
+			width: 50px;
+			margin-bottom: 10px;
+		}
+		.box1{
+			height: 20px;
+		}
+		.box2{
+			height: 60px;
+		}
+		.box3{
+			height: 40px;
+		}
+		.box4{
+			height: 60px;
+		}
+		.box5{
+			height: 40px;
+		}
+		.box6{
+			height: 20px;
+		}
+	</style>
 </head>
 <body>
-<div class="news">
-    <div class="left">
-        <div class="mo">内容1</div>
-        <div class="mo">内容2</div>
-        <div class="mo">内容3</div>
-        <div class="mo">内容4</div>
-    </div>
-    <div class="right">
-        <div class="ro">内容1</div>
-        <div class="ro">内容2</div>
-        <div class="ro">内容3</div>
-    </div>
-</div>
+	<div class="box">
+		<div class="box1"></div>
+		<div class="box2"></div>
+		<div class="box3"></div>
+		<div class="box4"></div>
+		<div class="box5"></div>
+		<div class="box6"></div>
+	</div>
 </body>
 </html>

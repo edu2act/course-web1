@@ -3,7 +3,7 @@
 
 <head lang="en">
     <meta charset="UTF-8">
-    <title>添加空元素clear:both清除浮动</title>
+    <title>固定高度阻止父高度塌陷</title>
     <style type="text/css">
 	    * {
 	        padding: 0;
@@ -14,8 +14,9 @@
 	        padding: 150px;
 	    }
 
-	    div.parent {
-	        width: 400px;/*没有设置高度*/	    
+	    div {
+	        width: 400px;
+	        height:300px;/*设置固定高度防止父高度塌陷*/
 	        border:2px solid red;
 	        padding:5px;
 	    }
@@ -27,11 +28,9 @@
 </head>
 
 <body>
-    <div class="parent">
+    <div>
         <img src="images/33.JPG"  width="200" height="200" />
-        <p>小狗很可爱小狗很漂亮小狗很可爱小狗很漂亮小狗很可爱小狗很漂亮小狗很可爱小狗很漂亮 小狗很可爱小狗很漂亮小狗很可爱小狗很漂亮小狗很可爱小狗很漂亮小狗很可爱小狗很漂亮
-        </p>
-        <div style="clear:both;"></div> <!-- 不允许左右两边有浮动的元素 -->
+        <p>小狗很可爱小狗很漂亮小狗很可爱小狗很漂亮小狗很可爱小狗很漂亮小狗很可爱小狗很漂亮 小狗很可爱小狗很漂亮小狗很可爱小狗很漂亮小狗很可爱小狗很漂亮小狗很可爱小狗很漂亮</p>
     </div>
 </body>
 
