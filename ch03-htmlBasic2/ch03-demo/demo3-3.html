@@ -1,18 +1,22 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title>表单</title>
+<head>
+	<title>Audio示例</title>
+	<meta charset="utf-8"/>
+	<link rel="icon" href="../img/snowflake.png" />
 </head>
 <body>
-	<ul>
-		<li>
-			<a href="http://www.baidu.com" target="myIframe">百度</a>
-		</li>
-		<li>
-			<a href="http://www.jd.com" target="myIframe">京东</a>
-		</li>
-	</ul>
-	<iframe src="demo3-1.html" name="myIframe" frameborder="3"></iframe>
-</body>
+	<audio controls="controls" >
+		<source src="2.mp3" type="audio/mpeg"/>
+		<source src="2.ogg" type="audio/ogg"/>
+		您的浏览器不支持Audio
+	</audio>
+	<br/>
+	<br/>
+	<video width="320" height="240" controls="controls" src="1.ogg">
+		<source src="1.ogg" type="video/ogg"/>
+		<source src="1.mp4" type="video/mp4"/>
+		您的浏览器不支持Video
+	</video>
+<body>
 </html>
